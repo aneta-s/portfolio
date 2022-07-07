@@ -236,19 +236,19 @@ body {
     padding: 1.5rem 4rem;
     cursor: pointer;
 }
-/* 
+
 .btn-text {
-    color: #ffffff;
+    
     background: linear-gradient(120deg, transparent 0%, transparent 50%, #ffc608 50%);
     background-size: 220%;
     transition: all 0.4s;
-} */
+}
 
 /* About, Projects, Contact Buttons on hover */
 .btn-text:hover,
 .btn-text:active {
     background-position: 100%;
-    color: #ffffff;
+    /* color: #ffffff; */
     transform: translateX(1rem);
 }
 
@@ -598,14 +598,14 @@ section#about {
 }
 
 #homecontent .btn {
-    background: transparent;
-    /* background: linear-gradient(to right, #DA3751, #ffc608);  */
+    background-image: none; 
     border: 0.2rem solid #ff8008;
-    color: #ff8008;
+    -webkit-text-fill-color: #fff;
+
 }
 
 #homecontent .btn:hover {
-    color: #fff;
+    -webkit-text-fill-color: #fff;
     background: linear-gradient(to right, #DA3751, #ffc608); 
     /* border: 0.2rem solid #ff8008; */
     transform: translateX(0);
@@ -653,7 +653,7 @@ section#about {
 #about .btn-text,
 #contact .heading-secondary  {
   color: #fff;
-}*/
+} */
 
 #about .zone.image {
     /*  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;*/
@@ -836,13 +836,13 @@ nav li a {
 
 /* Buttons Projects to UX process */
 
-/* .project-container .btn:link,
+.project-container .btn:link,
 .btn:visited {
     border: 0.2rem solid #ff8008;
-} */
+}
 
 .project-container .btn-text {
-    color: #fff;
+    /* color: #fff; */
     transition: all 0.4s;
     border-color: #ff8008;
 }
@@ -861,7 +861,7 @@ nav li a {
     margin-top: -10px;
 }
 .fa-inverse {
-    color: #000000 !important;
+    color: #000 !important;
 }
 .project-container .mobile-image {
     display: none;
