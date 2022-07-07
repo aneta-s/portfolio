@@ -598,7 +598,8 @@ section#about {
 }
 
 #homecontent .btn {
-    background: linear-gradient(to right, #DA3751, #ffc608); 
+    background: transparent;
+    /* background: linear-gradient(to right, #DA3751, #ffc608);  */
     border: 0.2rem solid #ff8008;
     color: #ff8008;
 }
