@@ -237,13 +237,6 @@ body {
     cursor: pointer;
 }
 
-.btn-text {
-    
-    background: linear-gradient(120deg, transparent 0%, transparent 50%, #ffc608 50%);
-    background-size: 220%;
-    transition: all 0.4s;
-}
-
 /* About, Projects, Contact Buttons on hover */
 .btn-text:hover,
 .btn-text:active {
@@ -598,7 +591,7 @@ section#about {
 }
 
 #homecontent .btn {
-    background-image: none; 
+    background: linear-gradient(to right, #DA3751, #ffc608); 
     border: 0.2rem solid #ff8008;
     -webkit-text-fill-color: #fff;
 
@@ -838,20 +831,39 @@ nav li a {
 
 .project-container .btn:link,
 .btn:visited {
-    border: 0.2rem solid #ff8008;
+    /* border: 0.2rem solid #ff8008; */
+    background-image: linear-gradient(to right, #DA3751, #ffc608);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 0.2rem solid #00000000;
+    border-image: linear-gradient(to right, #DA3751, #ffc608); 
+    border-image-slice: 1;
 }
 
 .project-container .btn-text {
-    /* color: #fff; */
-    transition: all 0.4s;
+    /* transition: all 0.4s; */
     border-color: #ff8008;
+
+    /*     transition: all 0.4s;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #ff8008 50%);
+    background-size: 220%;
+    border: 0.2rem solid #ff8008;
+    -webkit-text-fill-color: #fff; */
 }
 
 /* Button Projects txt color */
 .project-container .btn-text:hover {
-    transition: all 0.4s;
+    /* transition: all 0.4s;
     border-color: #ff8008;
-}
+    transform: translateX(0); */
+    -webkit-text-fill-color: #fff;
+    background: linear-gradient(to right, #DA3751, #ffc608); 
+        transition: all 0.4s;
+
+    
+        transform: translateX(0);
+
+} 
 
 .project .project-container .area.image {
     margin-top: 20px;
