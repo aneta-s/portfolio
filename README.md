@@ -14,6 +14,14 @@
 11. Resolve eventually errors in the console
 
 
+# Notes
+🟢  Developer uses these widths, but the wish is to change to our breakpoints given below the file
+1400
+1200
+992
+600
+
+
 # Backlog Portfolio2
 
 ❎  Make footer a reusable component
@@ -24,7 +32,7 @@
 ❎  In Project Details pages there are two different classes. class="project-container mb-0" and class="project-container”. Why not one generic class for all descriptions of the process?
 ❎  I want to edit styling of the project three and one ie. I want to adjust color of the main header and the sub-header, how to do it?
 ❎  Is it necessary to upload the same image to website for both desktop and smaller devices? class="mobile-image" 
-❎  D&T: ayout for Project: in order to have a better space repartition and a good layout balance I want to alternate between the text being in the left side and the picture being on the right 1/2 times.This will dynamise the site + will keep the user captivation Screenshot 2022-05-30 at 10.02.54.png
+❎  D&T: Layout for Project: in order to have a better space repartition and a good layout balance I want to alternate between the text being in the left side and the picture being on the right 1/2 times.This will dynamise the site + will keep the user captivation Screenshot 2022-05-30 at 10.02.54.png
 
 Legenda
 
