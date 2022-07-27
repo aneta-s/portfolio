@@ -24,6 +24,7 @@
 
 # Backlog Portfolio2
 
+❎  Parralex: I want page colors on index.html to change in parallex effect. Example:
 ❎  Make footer a reusable component
 ❎  Add favicon to the project details pages ie project details pages does not have favicon
 ❎  A: A white box appears at the bottom, isn't the element fit always span to the bottom of the page?
