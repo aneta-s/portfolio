@@ -14,6 +14,33 @@
 11. Resolve eventually errors in the console
 
 
+# Bugs And Browser related issues
+ ✅ Resolved: use playinline. 🔴 Video does not play on iPhone https://stackoverflow.com/questions/20347352/html5-video-tag-not-working-in-safari-iphone-and-ipad
+
+
+
+
+# Differences test-portfolio from portfolio
+ 🟠 Heading Aneta Stojanowska and Amsterdam is changed
+    <h1 class="heading-primary">                                                                                                                                                    <span class="heading-primary-main">
+      Hello, I'm <strong> Full Name</strong></span
+      >
+      <!-- span is to style elements differently -->
+      <span class="heading-primary-sub">
+        a UX/UI/Motion Designer, based in the City.</span
+        >
+      </h1>
+
+🟠 Profile image profile-foto.png is changed to profile-foto.jpg
+ <img
+            src="image/profile-foto.jpg"
+            alt="Profile Photo"
+            class="photo"
+            height="auto"
+            width="200px"
+            />
+
+
 # Notes
 🟢  Developer uses these widths, but the wish is to change to our breakpoints given below the file
 1400
