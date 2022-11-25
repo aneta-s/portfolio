@@ -14,10 +14,10 @@
 11. Resolve eventually errors in the console
 
 
-# Bugs And Browser related issues
+# Bugs And Browser related errors
+ 🟠 Safari First buttons are without borders
  ✅ Resolved: use playinline. 🔴 Video does not play on iPhone https://stackoverflow.com/questions/20347352/html5-video-tag-not-working-in-safari-iphone-and-ipad
-
-
+ 🟠 Testing: add code in .tilt.js file https://answers.netlify.com/t/added-new-site-using-old-url-and-netlify-display-old-website-continuous-deployment/74175/15
 
 
 # Differences test-portfolio from portfolio
@@ -39,7 +39,6 @@
             height="auto"
             width="200px"
             />
-
 
 # Notes
 🟢  Developer uses these widths, but the wish is to change to our breakpoints given below the file

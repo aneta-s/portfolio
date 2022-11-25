@@ -41,9 +41,8 @@ $gray:#7b6828; */
 }
 
 /*to actually make the Navigation work (4) need to add and remove these classes to .overlay (JS file "Toggle: Menu Active")*/
-/*Slide In Animation of the NAV ITEMS with delay for each nav item https://developer.mozilla.org/en-US/docs/Web/CSS/animation
-Below Class for each animations for each item in Navigation
-    linear means it moves at an even speed, with delay of 0.2s, both fills backwords and forwards. 
+/* Slide In Animation of the NAV ITEMS with delay for each nav item https://developer.mozilla.org/en-US/docs/Web/CSS/animation
+Below Class for each animations for each item in Navigation linear means it moves at an even speed, with delay of 0.2s, both fills backwords and forwards. 
 */
 .slide-in-1 {
     animation: slide-in 0.4s linear 0.2s both;
@@ -147,6 +146,7 @@ Below animation takes 0.4s and for each of the animation it launch .2s after the
 
 html {
     font-size: 62.5%;
+    background-color: #000;
 }
 
 body {
@@ -192,6 +192,7 @@ a {
     display: inline-block;
     background-image: linear-gradient(to right, #DA3751, #ffc608);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
 }
 .heading-secondary:hover {
@@ -390,7 +391,7 @@ nav li:nth-of-type(1) {
 }
 
 nav li:nth-of-type(2) {
-    background-color: #e7d8fc;
+    background-color: #d4f6fe;
 }
 
 nav li:nth-of-type(3) {
@@ -398,7 +399,7 @@ nav li:nth-of-type(3) {
 }
 
 nav li:nth-of-type(4) {
-    background-color: #d4f6fe;
+    background-color: #e7d8fc;
 }
 
 nav li:nth-of-type(5) {
@@ -448,7 +449,7 @@ section#about {
 }
 
 section#project-one {
-    background-color: #e7d8fc;
+    background-color:#d4f6fe;
     height: auto;
     padding-bottom: 0;
 }
@@ -460,7 +461,7 @@ section#project-two {
 }
 
 section#project-three {
-    background-color: #d4f6fe;
+    background-color:  #e7d8fc;
     height: auto;
     padding-bottom: 0;
 }
@@ -559,6 +560,7 @@ section#about {
 .text-box .heading-primary strong {
     background-image: linear-gradient(135deg, #DA3751, #ffc608);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -596,6 +598,7 @@ section#about {
 .btn2 {
     background-image: linear-gradient(to right, #DA3751, #ffc608);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 0.2rem solid #00000000;
     border-image: linear-gradient(to right, #DA3751, #ffc608); 
@@ -611,6 +614,22 @@ section#about {
     border-color: #ff8008;
     background: linear-gradient(to right, #DA3751, #ffc608); 
     -webkit-text-fill-color: #fff;
+    transform: translateX(1rem);
+}   
+
+.btn3 {
+    background-image: linear-gradient(to right, #DA3751, #ffc608);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+/* Hero & Projects to UX process Buttons on hover */
+.btn3:hover,
+.btn3:active {
+    background-position: 100%; 
+    -webkit-text-fill-color: linear-gradient(to right, #DA3751, #ffc608);
     transform: translateX(1rem);
 }   
 
@@ -653,9 +672,9 @@ section#about {
   color: #fff;
 } */
 
-#about .zone.image {
-    /*  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;*/
-}
+/* #about .zone.image {
+     box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+} */
 /* About button */
 #about .btn:link,
 #about .btn:visited {
